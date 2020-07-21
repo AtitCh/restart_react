@@ -1,0 +1,20 @@
+version: "2"
+
+services:
+  restart_server:
+    # image: node:10.16.0-alpine
+    build: .
+    container_name: restart_react
+    working_dir: /src/app
+    environment:
+      TZ: "Asia/Bangkok"
+      NODE_ENV: development
+      # NODE_ENV: production
+    volumes:
+      - .:/src/app
+    ports:
+      - 8081:3000
+    command: >
+      sh -c "npm start"
+    # tty: true
+    restart: always

@@ -28,7 +28,7 @@ const Dashboard = () => {
     { name: "AUTO-PC02", ip: "103.195.4.175", server_id: "af713542-47b5-203c-feeb-90d740822951", team: "au" },
     { name: "AUTO-PC03", ip: "103.195.4.213", server_id: "cd143542-cf4f-f547-b078-a65467fadae4", team: "au" },
     { name: "AUTO-PC04", ip: "103.195.4.203", server_id: "069e3542-1f13-1f36-264f-c3d1a75bcc73", team: "au" },
-    { name: "AUTO-PC05", ip: "103.195.4.17", server_id: "f6883542-938b-f3b1-62d5-70502502158a ", team: "au" },
+    { name: "AUTO-PC05", ip: "103.195.4.17", server_id: "f6883542-938b-f3b1-62d5-70502502158a", team: "au" },
     { name: "AUTO-PC06", ip: "103.195.6.46", server_id: "56ea3542-53e0-159a-92e9-bb82925f6545", team: "au" },
     { name: "AUTO-PC07", ip: "103.195.6.45", server_id: "164e3542-28c5-568d-436f-63dfb6d1a78d", team: "au" },
     { name: "AUTO-PC08", ip: "103.195.4.174", server_id: "4ba53542-3efd-16e6-eaee-2dd1ad9d4fdc", team: "au" },

@@ -78,41 +78,59 @@ const Dashboard = () => {
         console.log(response.data);
         setTimeout(() => {
           btn.innerText = "Waiting . ";
-        }, 1000);
+        }, 1500);
         setTimeout(() => {
           btn.innerText = "Waiting . . ";
-        }, 1500);
-
-        setTimeout(() => {
-          btn.innerText = "Waiting . . . ";
-        }, 2000);
-        setTimeout(() => {
-          btn.innerText = "Waiting . . . .";
         }, 2500);
 
         setTimeout(() => {
+          btn.innerText = "Waiting . . . ";
+        }, 3500);
+        setTimeout(() => {
+          btn.innerText = "Waiting . . . .";
+        }, 4500);
+        setTimeout(() => {
+          btn.innerText = "Waiting . . . . .";
+        }, 5500);
+        setTimeout(() => {
+          btn.innerText = "Waiting . . . . . .";
+        }, 6500);
+        setTimeout(() => {
+          btn.innerText = "Waiting . . . . . . .";
+        }, 7500);
+
+        setTimeout(() => {
           btn.innerText = "Success .";
-        }, 5000);
+        }, 9000);
       })
       .catch(function (error) {
         console.log(error.message);
         setTimeout(() => {
           btn.innerText = "Waiting . ";
-        }, 1000);
+        }, 1500);
         setTimeout(() => {
           btn.innerText = "Waiting . . ";
-        }, 1500);
-
-        setTimeout(() => {
-          btn.innerText = "Waiting . . . ";
-        }, 2000);
-        setTimeout(() => {
-          btn.innerText = "Waiting . . . .";
         }, 2500);
 
         setTimeout(() => {
+          btn.innerText = "Waiting . . . ";
+        }, 3500);
+        setTimeout(() => {
+          btn.innerText = "Waiting . . . .";
+        }, 4500);
+        setTimeout(() => {
+          btn.innerText = "Waiting . . . . .";
+        }, 5500);
+        setTimeout(() => {
+          btn.innerText = "Waiting . . . . . .";
+        }, 6500);
+        setTimeout(() => {
+          btn.innerText = "Waiting . . . . . . .";
+        }, 7500);
+
+        setTimeout(() => {
           btn.innerText = "Failed .";
-        }, 4000);
+        }, 9000);
       });
 
     setTimeout(() => {

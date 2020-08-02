@@ -37,6 +37,10 @@ const Dashboard = () => {
     { name: "AUTO-PC11", ip: "45.126.124.115", server_id: "11593542-164f-3a76-9f7e-1d7329598dbb", team: "au" },
     { name: "AUTO-PCH", ip: "103.195.4.89", server_id: "e4713542-5f0a-8c1d-9055-73bcee52268b", team: "au" },
     { name: "AUTO-PCR", ip: "103.195.5.157", server_id: "84613542-c558-cf9a-06b0-8806647d7250", team: "au" },
+    { name: "FOX-01", ip: "103.195.6.67", server_id: "a3343542-cd31-6827-0b3f-afdff198cdbd", team: "au" },
+    { name: "FOX-RES", ip: "103.195.5.42", server_id: "ad323542-ec8a-b45c-8a19-453ecd2a8605", team: "au" },
+    { name: "NewWeb-01", ip: "45.126.126.91", server_id: "e3633542-e67f-c6e3-31ea-ac8e1d7bb32f", team: "fb" },
+    { name: "NewWeb-RES", ip: "45.126.126.42", server_id: "76c63542-5e6e-4a62-7356-5ee0b7ec4f7a", team: "fb" },
   ];
   // * data server
 

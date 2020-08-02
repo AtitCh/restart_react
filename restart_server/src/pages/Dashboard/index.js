@@ -140,7 +140,7 @@ const Dashboard = () => {
     setTimeout(() => {
       btn.disabled = false;
       btn.innerText = `Restart ${state.v.name}`;
-    }, 10000);
+    }, 50000);
   };
 
   return (
@@ -151,6 +151,8 @@ const Dashboard = () => {
           <div className="container">
             <div className="logo">
               <img src={logo} className="logo-login" alt="" />
+            </div>
+            <div className="logo">
               <button onClick={handleLogout}>Logout</button>
             </div>
             <div className="table">

@@ -1,3 +1,10 @@
+@media screen and (max-width: 480px) {
+  .container-modal{
+    width: 85% !important;
+  }
+  }
+  
+
 .modal {
   position: fixed;
   display: flex;
@@ -17,6 +24,7 @@
   background: white;
   border-radius: 5px;
   padding: 20px;
+  width: 25%;
   transition: 1s;
 }
 .modal-row {
@@ -33,20 +41,22 @@
 }
 
 .modal-btn-no {
-  background-color: rgb(165, 54, 54);
+  background-color: rgb(122, 122, 122);
   width: 45%;
+  padding: 15px 0;
+  color: black;
 }
 .modal-btn-yes {
-  background-color: rgb(34, 112, 69);
+  background: rgb(38, 156, 252);
   width: 45%;
+  padding: 15px 0;
 }
 .modal-btn-no:hover {
-  background: rgb(165, 54, 60);
-  width: 45%;
+  background-color: rgb(110, 110, 110);
+  color: white;
   cursor: pointer;
 }
 .modal-btn-yes:hover {
-  background: rgb(34, 112, 98);
-  width: 45%;
+  background: rgb(23, 138, 233);
   cursor: pointer;
 }

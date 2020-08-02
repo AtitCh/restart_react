@@ -1,3 +1,22 @@
+@media screen and (max-width: 480px) {
+
+.container{
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+}
+.logo{
+text-align: center !important;
+}
+th,
+td{
+  font-size: 80% !important;
+}
+button{
+  font-size: 80% !important;
+}
+
+}
 .body {
   background: #f1f1f1;
   font-family: "Prompt", sans-serif;
@@ -15,14 +34,13 @@
   width: 150px;
 }
 .logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+  margin: 20px;
+  text-align: center !important;
 }
 table {
   border-collapse: collapse;
   width: 100%;
+  margin: 0 auto;
   margin-top: 40px;
 }
 
@@ -32,6 +50,7 @@ td {
   text-align: left;
   border-bottom: 1px solid #ddd;
   text-align: center;
+  width: 200px;
 }
 .table {
   width: 100%;
@@ -46,6 +65,7 @@ button {
   border: none;
   padding: 10px;
   border-radius: 5px;
+  font-size: 1.2em;
 }
 button:hover {
   background: rgb(23, 138, 233);
